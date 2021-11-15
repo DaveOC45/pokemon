@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+body {
+    margin: 0%;
+}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    height: 50vh;
+    padding-right: 3.2vh;
+}
+
+div.scrollmenu div.card {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    padding: 2.1vh 0 2.1 2.1;
+}
+
+img {
+    width: 43vh;
+}
+
+header,
+footer {
+    height: 25vh;
+}
+
+h1 {
+    font-family: 'Zen Antique', serif;
+    margin: 0;
+}
+
+.button {
+    width: 10%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
